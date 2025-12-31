@@ -22,20 +22,14 @@ input_number: int = convert_str_to_number(user_input)
 def convert_integer_to_binary(input_value: int):
     binary_number = bin(input_value)
     print(f"~> The binary number of given interger is: {CYAN}{binary_number}{RESET}")    
-    # test code
-    print(f"~> The type of binary number is: {YELLOW}{type(binary_number)}{RESET}")
 
 def convert_integer_to_hex(input_value: int):
     hex_number = hex(input_value)
     print(f"~> The hex number of given interger is: {CYAN}{hex_number}{RESET}")
-    # test code
-    print(f"~> The type of hex number is: {YELLOW}{type(hex_number)}{RESET}")
 
 def convert_integer_to_octal(input_value: int):
     octal_number = oct(input_value)
     print(f"~> The octal number of given interger is: {CYAN}{octal_number}{RESET}")
-    # test code
-    print(f"~> The type of octal number is: {YELLOW}{type(octal_number)}{RESET}")
 
 # just for space need to display result
 print("")
