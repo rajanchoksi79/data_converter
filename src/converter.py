@@ -1,5 +1,6 @@
 from colors import CYAN, RESET
 
+
 # integer to binary converter function  
 def convert_integer_to_binary(input_value: int):
     binary_number = bin(input_value)

@@ -2,6 +2,7 @@ from casting import casting_str_to_number
 from display import display_result
 from colors import YELLOW, RESET
 
+
 def main():
     # getting and storing user input
     user_input: str = input("\n- Enter an interger number here: ")

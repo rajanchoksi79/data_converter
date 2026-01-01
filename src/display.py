@@ -1,6 +1,7 @@
 from converter import convert_integer_to_binary, convert_integer_to_hex, convert_integer_to_octal
 from colors import RED, RESET
 
+
 # displaying result based on user choice of data format 
 def display_result(data_format: str, input_number: int):
     # just for space need to display result
