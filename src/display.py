@@ -1,4 +1,4 @@
-from converter import convert_integer_to_binary, convert_integer_to_hex, convert_integer_to_octal
+from converter import convert_integer_to_binary, convert_integer_to_hex, convert_integer_to_octal, convert_integer_to_UTF_8
 from colors import RED, RESET
 
 
@@ -13,10 +13,13 @@ def display_result(data_format: str, input_number: int):
         convert_integer_to_hex(input_number)
     elif (data_format == "o"):    
         convert_integer_to_octal(input_number)
+    elif (data_format == "u"):
+        convert_integer_to_UTF_8(input_number)    
     elif (data_format == "a"):
         convert_integer_to_binary(input_number)
         convert_integer_to_hex(input_number)
         convert_integer_to_octal(input_number)
+        convert_integer_to_UTF_8(input_number)
     else: 
         print(f"{RED}~> Please enter correct data format flag{RESET}")
 
